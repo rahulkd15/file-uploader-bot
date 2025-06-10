@@ -4,10 +4,10 @@ import { randomBytes } from "crypto"
 import bodyParser from "body-parser"
 import { Telegraf, session } from "telegraf"
 
-const BOT_TOKEN = "BOT_TOKEN"
-const VERCEL_URL = "VERCEL_URL"
-const FIREBASE_DB_URL = "DATABASE_URL"
-const ADMIN_ID = "USERID"
+const BOT_TOKEN = "7842984407:AAHxgUDgnCmxOEGEtpL4z9SfBn8hnXRD__0"
+const VERCEL_URL = "https://file-uploader-bot.vercel.app"
+const FIREBASE_DB_URL = "https://console.firebase.google.com/u/2/project/new-movies-hub---official/database/new-movies-hub---official-default-rtdb/data/~2F"
+const ADMIN_ID = "5695882571"
 
 const bot = new Telegraf(BOT_TOKEN)
 const app = express()
